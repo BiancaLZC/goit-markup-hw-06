@@ -80,7 +80,7 @@
 .nav-link:hover,
 .nav-link:focus {
   color: var(--blue);
-  text-decoration: underline;
+  text-decoration: none;
   transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .nav-link:hover::after,
@@ -120,7 +120,7 @@
 .nav-contact:focus .nav-icon__item {
   color: var(--blue);
   fill: var(--blue);
-  text-decoration: underline;
+  text-decoration: none;
   transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
@@ -144,7 +144,7 @@
 .nav-contacts:hover .nav-contact {
   color: var(--blue);
   fill: var(--blue);
-  text-decoration: underline;
+  text-decoration: none;
   transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 /*Hero section style */
@@ -305,7 +305,7 @@
 .team-section__icon {
   border-radius: 50%;
   padding: 12px 12px 10px 12px;
-  fill: var(--white);
+  fill: var(--icon-color);
 }
 
 .team-section__icon:hover,
@@ -503,6 +503,8 @@
   justify-content: center;
   align-items: center;
   gap: 25px;
+  outline: none;
+  border: none;
 }
 
 /*Portfolio style*/
